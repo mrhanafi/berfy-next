@@ -1,0 +1,61 @@
+{
+  "cosmetic_body": {
+    "upper": "2.5",
+    "left": "1.5",
+    "right": "2.5",
+    "bottom": "4"
+  },
+  "cosmetic_lcd": {
+    "black": "5",
+    "white": "5",
+    "line": "5",
+    "dead_pixel": "5",
+    "liquid_damages": "5",
+    "back_light_smoothness": "5"
+  },
+  "cosmetic_touch": {
+    "scratch_score": "2.5",
+    "responsive": { "score": "5", "remark": null }
+  },
+  "cosmetic_rear_camera": {
+    "scratch_score": "5",
+    "functionality": "5",
+    "video": "5",
+    "photo": "5",
+    "potrait": "5"
+  },
+  "cosmetic_front_camera": {
+    "scratch_score": "5",
+    "functionality": "5",
+    "video": "5",
+    "photo": "5",
+    "potrait": "5",
+    "face_id": "5"
+  },
+  "cosmetic_charging_port": {
+    "cleanliness": { "score": "5", "remark": "" },
+    "functionality": { "score": "5", "remark": "" },
+    "microphone": "5",
+    "fatigue_test": "3.5"
+  },
+  "cosmetic_earpiece_speaker": {
+    "cleanliness": "5",
+    "functionality": "5",
+    "microphone": "5"
+  },
+  "cosmetic_loud_speaker": { "cleanliness": "5", "functionality": "5" },
+  "quality_test": {
+    "on_off_button": { "functional": "5", "fatigue_test": "2.5" },
+    "volume_button": { "functional": "5", "fatigue_test": "3.5" },
+    "silent_button": { "functional": "5", "fatigue_test": "4" },
+    "speaker_ear_piece": { "functional": "5" },
+    "speaker_loud": { "functional": "5" },
+    "wifi_connection": { "functional": "5", "fatigue_test": "2.5" },
+    "bluetooth": { "functional": "5" },
+    "sim_card": { "functional": "5" },
+    "lcd_testing": { "touch": "5", "lcd": "5" },
+    "running_test": "5",
+    "fatigue_test": "5",
+    "free_tempered_glass": "5"
+  }
+}
