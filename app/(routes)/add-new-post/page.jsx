@@ -72,6 +72,12 @@ const data = {
 const AddNewPost = () => {
   const [loader,setLoader] = useState(false);
 
+  const handleSubmit = async () => {
+    setLoader(true);
+      
+    setLoader(false);
+  }
+
   return (
     <div className='mt-10 md:px-36 lg:px-50'>
         <div className='p-10 flex flex-col gap-5 items-center justify-center'>

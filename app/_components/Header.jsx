@@ -36,11 +36,18 @@ const Header = () => {
             </div>
         )
              :
-            <Link href={'/sign-in'} >
-                <Button variant="outline">Panel Login</Button>
+            // <Link href={'/sign-in'} >
+            (
+            <>
+              <Link href={'/panel/sign-in'} >
+                  <Button variant="outline">Panel Sign In</Button>
+              </Link>
+              <Link href={'/panel/sign-up'} >
+                  <Button variant="">Panel Sign Up</Button>
+              </Link>
             
-            </Link>
-        }
+            </>
+            )}
       </div>
     </div>
   )
